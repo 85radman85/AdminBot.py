@@ -1,5 +1,5 @@
 #                    Developer : SeniorEzio
-#                    github : 
+#                    github : https://github.com/SeniorEzioAuditore/AdminBot.py.git
 #                    discord id : ! S͛eͤniͥoͦrͬEͤziͥoͦ#2938
 
 
