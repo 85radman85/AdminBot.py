@@ -1,5 +1,8 @@
+
+#                     *In The Name Of God*
+
 #                    Developer : SeniorEzio
-#                    github : https://github.com/SeniorEzioAuditore
+#                    github : 
 #                    discord id : ! S͛eͤniͥoͦrͬEͤziͥoͦ#2938
 
 
@@ -280,6 +283,31 @@ async def invite(ctx):
 
 
 #  invite dadan 
+
+
+
+
+
+
+
+@client.command(aliases= ["Help", "HELP"])
+async def help(ctx):
+    embed = discord.Embed(colour = random.choice(colors), title="Help")
+    embed.add_field(name="lock", value="lock kardan", inline=False)
+    embed.add_field(name="unlock", value="unlock kardan", inline=False)
+    embed.add_field(name="ban", value="ban kardan", inline=False)
+    embed.add_field(name="mute", value="mute kardan", inline=False)
+    embed.add_field(name="unmute", value="unmute kardan", inline=False)
+    embed.add_field(name="kick", value="kick kardan", inline=False)
+    embed.add_field(name="warn", value="warn dadan", inline=False)
+    embed.add_field(name="invite", value="invite dadan", inline=False)
+    embed.add_field(name="clear", value="pak kardan payam", inline=False)
+    embed.add_field(name="user", value="didan User info", inline=False)
+    await ctx.reply(embed=embed)
+
+# Help command
+
+
 
 
 
